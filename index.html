@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Drishana Chanda </a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#travel">Travel</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#environment">Environment</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<!--
+Start coding from here
+-->
+<div class="page-header" id="travel"> 
+  <h2 class="text-capitalize"> places must visit </h2>
+</div>
+<center> 
+  <div class="travel_maindiv">
+    <img class="img-responsive" src="ooty.jpg">
+    <h4 class="text-capitalize"> <kbd>ooty</kbd> </h4>
+    <hr> 
+    <h5 class="text-success text-left text-capitalize">i visited on 13th january</h5>
+    <p class="text-muted text-left ">Ooty (short for Udhagamandalam) is a resort town in the Western Ghats mountains, in southern India's Tamil Nadu state. Founded as a British Raj summer resort, it retains a working steam railway line. Other reminders of its colonial past include Stone House, a 19th-century residence, and the circa-1829 St. Stephen’s Church. Its 55-acre Government Botanical Garden lies on the slopes of Doddabetta Pe</p>
+  </div>
+  <div class="page-header" id="movies"> 
+  <h2 class="text-capitalize"> reviews on movies </h2>
+  </div>
+  <div class="bg-primary movie_head " data-toggle="collapse" data-target="#Frozen_2">
+    <span class="glyphicon glyphicon-film"></span> Frozen 2
+    <i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="Frozen_2" class="collapse">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img  class = "img-responsive img-thumbnail" src="frozen.jpg">
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text"> 
+        <h5 class="text-success text-left text-capitalize"> Excellent film for kids 
+          <span class=" glyphicon glyphicon-star"> </span>
+          <span class=" glyphicon glyphicon-star"> </span>
+          <span class=" glyphicon glyphicon-star"> </span>
+          <span class=" glyphicon glyphicon-star"> </span>
+        </h5>
+        <p>Queen Elsa begins to hear a mysterious melodic voice calling to her. Unsettled, she answers it, thus awakening the elemental spirits and setting into motion a quest to restore an old injustice.</p>
+      </div>
+      </div>
+      <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+        <h2 class="text-capitalize"> news about environment</h2>
+       </div>
+       <ul class="list-group">
+         <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"> 
+           <h4 Tamil Nadu is missing wood for trees > </h4>
+           <img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="tn news.jpg">
+           <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"> In the past two years, Tamil Nadu expanded its forest cover by 55sqkm, but lost 406sqkm of tree cover.
+            The state is the ninth in the country in terms of forest cover at 20% of its total geographical area, as per India State of Forest Report 2021, released by Forest Survey of India (FSI) of the Union ministry of environment and forests.</p>
+         </li>
+       </ul>
+       <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+         <h2 class="text-capitalize"> list of books </h2>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 books" data-toggle="modal" data-target="#first_space_encyclopedia">
+        <img class ="img-responsive" src="s1.jpg">
+        <hr>
+        <p class="text-primary"> First Space Encyclopedia </p>
+        </div>
+        <div class="modal fade" id="first_space_encyclopedia">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button"class="close" data-dismiss="modal"> &times;</button>
+                <h4 class="modal-title"> First Space Encyclopedia</h4>
+              </div>
+              <div class="modal-body">
+                <img class ="img-responsive image_modal" src="s1.jpg">
+                <p class="p_modal">
+                  Discover how the Solar System was formed and explore its amazing planets, then journey further into the Universe and learn about the mysteries of space. ncredible photographs and illustrations show deep space in all its beauty. Bite-sized facts and quiz questions make learning fun
+                  <br>
+                  <a href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_3?crid=2HEF8GYB1MGNJ&keywords=first+space+encyclopedia&qid=1644416226&sprefix=first+space+enc%2Caps%2C897&sr=8-3">
+                   <b>Best Buy Link</b> 
+                  </a>
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+     
+     <section id="contact">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15545.964909156583!2d80.1986642!3d13.0680241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52667c2d442eff%3A0x15bb70f9f41461c7!2sMaharishi%20Vidya%20Mandir%20Senior%20Secondary%20School!5e0!3m2!1sen!2sin!4v1643724601380!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="contact_1" >
+
+           <a href="mailto:my@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+            </a> 
+
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a> 
+        </div>
+</section>
+</center>
+</body>
+</html>
